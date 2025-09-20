@@ -1,0 +1,16 @@
+POST http://localhost:5000/contacts
+Content-Type: application/json
+
+{
+  "name": "prasad kumar", 
+  "email": "prasad@gmail.com",
+  "phone": "7993281864"
+}
+
+### 
+
+GET http://localhost:5000/contacts?limit=5&offset=0;
+
+### 
+
+DELETE http://localhost:5000/contacts/3; 
